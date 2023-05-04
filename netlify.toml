@@ -1,0 +1,16 @@
+[build]
+    command = "gatsby build"
+    publish = "public"
+
+[build.environment]
+    NODE_VERSION = "18.0.0"
+
+[dev]
+    command = "gatsby develop"
+
+#[[redirects]]
+#  from = ""
+#  to = ""
+
+[[plugins]]
+    package = "@netlify/plugin-gatsby"
