@@ -1,0 +1,14 @@
+[build]
+    command = "gatsby build"
+    publish = "public"
+[dev]
+    command = "gatsby develop"
+    targetPort=8888
+
+
+#[[redirects]]
+  from = ""
+  to = ""
+
+[[plugins]]
+    package = "@netlify/plugin-gatsby"
